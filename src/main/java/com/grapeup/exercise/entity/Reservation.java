@@ -19,6 +19,6 @@ public class Reservation {
     private Long id;
     private String username;
     private int numberOfPeople;
-    private long roomNumber;
+    private long roomNumber; // I would consider mapping it as a relationship here...
     private Date startDate, endDate;
 }
